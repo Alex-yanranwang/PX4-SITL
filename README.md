@@ -20,8 +20,8 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 ```
 ```
 source $(pwd)/src/PX4-Autopilot/Tools/setup_gazebo.bash $(pwd)/src/PX4-Autopilot $(pwd)/build/px4
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_gazebo
 ```
 
 ## No.3.1 (launch with mavros, px4 sitl, Gazebo and spawn quadrotor):
