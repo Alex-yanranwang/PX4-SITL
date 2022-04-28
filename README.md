@@ -11,6 +11,9 @@ cd /home/alex/TEST-202204/PX4-SITL/PX4-Autopilot
 ```
 make px4_sitl gazebo
 ```
+```
+roslaunch px4 mavros_posix_sitl_catkin.launch
+```
 
 ## No.2:
 ```
