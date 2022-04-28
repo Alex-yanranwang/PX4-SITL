@@ -47,3 +47,7 @@ roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 cd /home/alex/TEST-202204/PX4-SITL/PX4-Autopilot/integrationtests/python_src/px4_it/mavros
 python test-poscl.py 
 ```
+```
+cd ~/TEST-202204/PX4-SITL-catkin/PX4-SITL/src/PX4-Autopilot/integrationtests/python_src/px4_it/mavros
+python test-poscl.py 
+```
