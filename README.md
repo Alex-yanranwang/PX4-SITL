@@ -7,7 +7,7 @@ px4 sitl with launch files
 cd /home/alex/TEST-202204/PX4-SITL/PX4-Autopilot
 ```
 ```
-~/TEST-202204/PX4-SITL-catkin/PX4-SITL
+cd ~/TEST-202204/PX4-SITL-catkin/PX4-SITL
 ```
 
 ## No.1:
