@@ -19,7 +19,7 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 ```
 ```
-source $(pwd)/Tools/setup_gazebo.bash $(pwd) $(pwd)/build_posix_sitl_default
+source $(pwd)/src/PX4-Autopilot/Tools/setup_gazebo.bash $(pwd)/src/PX4-Autopilot $(pwd)/build/px4
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 ```
