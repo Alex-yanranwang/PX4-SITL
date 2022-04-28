@@ -11,9 +11,6 @@ cd /home/alex/TEST-202204/PX4-SITL/PX4-Autopilot
 ```
 make px4_sitl gazebo
 ```
-```
-roslaunch px4 mavros_posix_sitl_catkin.launch
-```
 
 ## No.2:
 ```
@@ -30,6 +27,9 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_ga
 ## No.3.1 (launch with mavros, px4 sitl, Gazebo and spawn quadrotor):
 ```
 roslaunch px4 mavros_posix_sitl.launch
+```
+```
+roslaunch px4 mavros_posix_sitl_catkin.launch
 ```
 ## No.3.2 (px4 sitl, Gazebo and spawn quadrotor):
 ```
