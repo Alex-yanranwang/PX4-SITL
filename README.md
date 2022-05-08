@@ -17,12 +17,13 @@ make px4_sitl gazebo
 
 ## No.2:
 ```
-source /home/alex/TEST-202204/PX4-SITL/PX4-Autopilot/Tools/setup_gazebo.bash /home/alex/TEST-202204/PX4-SITL/PX4-Autopilot /home/alex/TEST-202204/PX4-SITL/PX4-Autopilot/build/px4_sitl_default
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
-```
-```
 source $(pwd)/devel/setup.bash $(pwd)/src/PX4-Autopilot $(pwd)/build/px4
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_gazebo
+```
+```
+source $(pwd)/src/PX4-Autopilot/Tools/setup_gazebo.bash $(pwd)/src/PX4-Autopilot $(pwd)/build/px4
+source $(pwd)/devel/setup.bash
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_gazebo
 ```
