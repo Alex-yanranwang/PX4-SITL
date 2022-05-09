@@ -17,7 +17,8 @@ make px4_sitl gazebo
 
 ## No.2:
 ```
-source $(pwd)/devel/setup.bash $(pwd)/src/PX4-Autopilot $(pwd)/build/px4
+source $(pwd)/src/PX4-Autopilot/Tools/setup_gazebo_catkin.bash $(pwd)/src/PX4-Autopilot $(pwd)/src/PX4-Autopilot/build/px4_sitl_default $(pwd)
+source $(pwd)/devel/setup.bash
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_gazebo
 ```
@@ -25,7 +26,6 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_ga
 source $(pwd)/src/PX4-Autopilot/Tools/setup_gazebo_catkin.bash $(pwd)/src/PX4-Autopilot $(pwd)/src/PX4-Autopilot/build/px4_sitl_default $(pwd)
 source $(pwd)/devel/setup.bash
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_gazebo
 ```
 ```
 source /home/alex/TEST-202204/PX4-SITL-catkin/PX4-SITL/src/PX4-Autopilot/Tools/setup_gazebo.bash /home/alex/TEST-202204/PX4-SITL-catkin/PX4-SITL/src/PX4-Autopilot /home/alex/TEST-202204/PX4-SITL-catkin/PX4-SITL/src/PX4-Autopilot/build/px4_sitl_default
