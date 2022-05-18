@@ -29,7 +29,7 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_gazebo
 ```
 ```
-source /home/alex/TEST-202204/PX4-SITL-catkin/PX4-SITL_/src/PX4-Autopilot/Tools/setup_gazebo.bash /home/alex/TEST-202204/PX4-SITL-catkin/PX4-SITL_/src/PX4-Autopilot /home/alex/TEST-202204/PX4-SITL-catkin/PX4-SITL_/src/PX4-Autopilot/build/px4_sitl_default
+source /home/alex/TEST-202204/PX4-SITL-catkin/PX4-Autopilot/Tools/setup_gazebo.bash /home/alex/TEST-202204/PX4-SITL-catkin/PX4-Autopilot /home/alex/TEST-202204/PX4-SITL-catkin/PX4-Autopilot/build/px4_sitl_default
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 ```
