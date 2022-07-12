@@ -21,6 +21,7 @@ source $(pwd)/src/PX4-Autopilot/Tools/setup_gazebo.bash $(pwd)/src/PX4-Autopilot
 source $(pwd)/devel/setup.bash
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/PX4-Autopilot/Tools/sitl_gazebo
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/src/gazebo_ros_pkgs
 ```
 ```
 source $(pwd)/src/PX4-Autopilot/Tools/setup_gazebo_catkin.bash $(pwd)/src/PX4-Autopilot $(pwd)/src/PX4-Autopilot/build/px4_sitl_default $(pwd)
